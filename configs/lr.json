@@ -1,0 +1,9 @@
+{
+    "model_name" : "lr",
+    "dataset_root" : "./dataset/mnist",
+    "batch_size" : 32,
+    "epoch" : 30,
+    "lr": 1e-2,
+    "val": true,
+    "pth_path": "C:\\Users\\Cremecho\\Desktop\\program\\Python38\\ML_study_platform\\results\\lr\\2024-06-27 22-44-28\\best_epoch.pth"
+}

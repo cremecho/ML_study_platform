@@ -1,0 +1,2 @@
+test, loss=0.11184
+This epoch Acc: 0.865, Class Acc: 0.863, Sensitivity: 0.761, Specificity: 0.966, F1-Score: 0.847
