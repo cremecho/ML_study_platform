@@ -1,18 +1,12 @@
-import random
 import torch
-from torch import nn
-from torch.autograd import Variable
-import pandas as pd
-import argparse
 import os
 import time
 from datetime import datetime
 import json
 
-from utils.model_setting_helper import complete_settings
 from utils import metrics
 from utils.model_setting_helper import *
-from utils.get_loader import get_loader
+
 
 class Tester(object):
     def __init__(self, configs):
@@ -23,22 +17,24 @@ class Tester(object):
             setattr(self, k, v)
         # test's save folder is the folder that stores the pth model
         self.save_path = os.path.split(self.pth_path)[0]
+        # testing mode
+        self.mode = 'test'
 
-        # 2. load model
-        self.model = get_model(self)
+        # 2.-5. load model, dataset; set criterion; set optimizer
+        model, dataset, loss_func, optimizer = get_model_settings(self)
+        self.model = model
         checkpoint = torch.load(self.pth_path)
         self.model.load_state_dict(checkpoint)
-        self.model.cuda()
+        self.model = model.cuda()
         self.model.eval()
 
-        # 3. get dataloader
-        self.test_loader = get_loader(self.model_name, self.scale, self.dataset_root, self.batch_size, self.val,
-                                                            pin_memory=True, num_workers=1, mode='test')
-        # 4. set loss function
-        self.criterion = get_criterion(self)
-        # 5. set optimizer
-        self.optimizer = get_optimizer(self)
-        # 6. set metrics
+        self.criterion = loss_func
+        self.optimizer = optimizer
+
+        # 6. get dataloader
+        self.test_loader = get_loader(self, dataset, pin_memory=True, num_workers=1)
+
+        # 7. set metrics
         self.metrics = metrics.Metrics(self.save_path, self.model_name)
 
 

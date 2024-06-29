@@ -1,14 +1,8 @@
-import random
-
-import numpy as np
-import pandas as pd
 import os
-from os.path import join
-import glob
-import matplotlib.pyplot as plt
-import sys
-
 import re
+from os.path import join
+
+import matplotlib.pyplot as plt
 
 
 def __getdata(save_path, file_name):

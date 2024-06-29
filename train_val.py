@@ -1,8 +1,5 @@
-import random
 import torch
-from torch import nn
 from torch.autograd import Variable
-import pandas as pd
 import os
 import time
 from datetime import datetime
@@ -10,7 +7,6 @@ import json
 
 from utils import metrics
 from utils.model_setting_helper import *
-from utils.get_loader import get_loader
 from utils.ploting import *
 
 def save_config(config):
@@ -76,26 +72,24 @@ class Trainer(object):
             complete_settings(configs)
         for k,v in configs.items():
             setattr(self, k, v)
-
-        # 2. load model
-        model = get_model(self)
-        self.model = model.cuda()
-        # 3. get dataloader
-        if self.val:
-            self.train_loader, self.val_loader = get_loader(self.model_name, self.scale, self.dataset_root, self.batch_size, self.val,
-                                                            pin_memory=True, num_workers=1, mode='train')
-        else:
-            self.train_loader = get_loader(self.model_name, self.scale, self.dataset_root, self.batch_size, self.val,
-                                           pin_memory=True, num_workers=1, mode='train')
-
-        # 4. set loss function
-        self.criterion = get_criterion(self)
-        # 5. set optimizer
-        self.optimizer = get_optimizer(self)
-        # 6. set metrics
-        self.metrics = metrics.Metrics(self.save_path, self.model_name)
-        # store best validation accuracy
+        # training mode
+        self.mode = 'train'
+        # var for storing best validation accuracy
         self.best_pred = 0.
+
+        # 2.-5. load model, dataset; set criterion; set optimizer
+        model, dataset, loss_func, optimizer = get_model_settings(self)
+        self.model = model
+        self.model = model.cuda()
+        self.criterion = loss_func
+        self.optimizer = optimizer
+
+        # 6. get dataloader
+        self.train_loader, self.val_loader = get_loader(trainer=self, dataset=dataset, pin_memory=True, num_workers=1)
+
+        # 7. set metrics
+        self.metrics = metrics.Metrics(self.save_path, self.model_name)
+
 
 
     def train(self):

@@ -1,4 +1,3 @@
-# [【pytorch学习实战】第三篇：逻辑回归_3.pytorch实现逻辑回归-CSDN博客](https://blog.csdn.net/QLeelq/article/details/123375791)
 import torch.nn as nn
 
 
