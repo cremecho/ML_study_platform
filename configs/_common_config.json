@@ -1,4 +1,4 @@
 {
-  "model_name": "multiclass_lr",
+  "model_name": "lr",
   "save_path": "./results"
 }

@@ -90,7 +90,7 @@ class Trainer(object):
         self.train_loader, self.val_loader = get_loader(trainer=self, dataset=dataset, pin_memory=True, num_workers=1)
 
         # 7. set metrics
-        self.metrics = metrics.Metrics(self.save_path, self.model_name)
+        self.metrics = metrics.Metrics(self.model_name, dataset.NUM_CLASSES, dataset.CLASS_LABELS, self.save_path)
 
         # 8. record training time
         self.start_time = time.time()
@@ -170,7 +170,7 @@ class Trainer(object):
             print(str_loss, file=f)
             print(str_metrics, file=f)
 
-        self.metrics.confusion_matrix_map(epoch, mode)
+        self.metrics.confusion_matrix_map(epoch, mode, 5)
         model_config['epoch'] = epoch
         plot_metrics(configs=model_config, file_name='%s.txt' % mode, metrics_ls=[])
         #plot_metrics(configs=model_config, file_name='val.txt', metrics_ls=[])

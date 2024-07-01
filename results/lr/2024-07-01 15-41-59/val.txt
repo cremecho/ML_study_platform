@@ -1,0 +1,36 @@
+val, epoch: 1, loss=0.77696
+Acc: 0.500, Class Acc: 0.500, Sensitivity: 0.000, Specificity: 1.000, F1-Score: 0.000
+val, epoch: 2, loss=0.76426
+Acc: 0.500, Class Acc: 0.500, Sensitivity: 0.000, Specificity: 1.000, F1-Score: 0.000
+val, epoch: 3, loss=0.75171
+Acc: 0.500, Class Acc: 0.500, Sensitivity: 0.000, Specificity: 1.000, F1-Score: 0.000
+val, epoch: 4, loss=0.74071
+Acc: 0.500, Class Acc: 0.500, Sensitivity: 0.000, Specificity: 1.000, F1-Score: 0.000
+val, epoch: 5, loss=0.72991
+Acc: 0.500, Class Acc: 0.500, Sensitivity: 0.000, Specificity: 1.000, F1-Score: 0.000
+val, epoch: 6, loss=0.71978
+Acc: 0.500, Class Acc: 0.500, Sensitivity: 0.000, Specificity: 1.000, F1-Score: 0.000
+val, epoch: 7, loss=0.70848
+Acc: 0.500, Class Acc: 0.500, Sensitivity: 0.000, Specificity: 1.000, F1-Score: 0.000
+val, epoch: 8, loss=0.69874
+Acc: 0.500, Class Acc: 0.500, Sensitivity: 0.000, Specificity: 1.000, F1-Score: 0.000
+val, epoch: 9, loss=0.68945
+Acc: 0.500, Class Acc: 0.500, Sensitivity: 0.000, Specificity: 1.000, F1-Score: 0.000
+val, epoch: 10, loss=0.68101
+Acc: 0.500, Class Acc: 0.500, Sensitivity: 0.000, Specificity: 1.000, F1-Score: 0.000
+val, epoch: 11, loss=0.67341
+Acc: 0.500, Class Acc: 0.500, Sensitivity: 0.000, Specificity: 1.000, F1-Score: 0.000
+val, epoch: 12, loss=0.66543
+Acc: 0.500, Class Acc: 0.500, Sensitivity: 0.000, Specificity: 1.000, F1-Score: 0.000
+val, epoch: 13, loss=0.65738
+Acc: 0.525, Class Acc: 0.525, Sensitivity: 0.050, Specificity: 1.000, F1-Score: 0.095
+val, epoch: 14, loss=0.65041
+Acc: 0.525, Class Acc: 0.525, Sensitivity: 0.050, Specificity: 1.000, F1-Score: 0.095
+val, epoch: 15, loss=0.64330
+Acc: 0.525, Class Acc: 0.525, Sensitivity: 0.050, Specificity: 1.000, F1-Score: 0.095
+val, epoch: 16, loss=0.63705
+Acc: 0.550, Class Acc: 0.550, Sensitivity: 0.100, Specificity: 1.000, F1-Score: 0.182
+val, epoch: 17, loss=0.63033
+Acc: 0.600, Class Acc: 0.600, Sensitivity: 0.200, Specificity: 1.000, F1-Score: 0.333
+val, epoch: 18, loss=0.62425
+Acc: 0.600, Class Acc: 0.600, Sensitivity: 0.200, Specificity: 1.000, F1-Score: 0.333

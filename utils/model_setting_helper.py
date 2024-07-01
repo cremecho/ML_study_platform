@@ -26,7 +26,9 @@ def get_model_settings(trainer):
         _model = BinaryLogisticRegression()
         # 2. get dataset
         from dataset.BinaryClassificationPointsDataset import BCPDataset
-        _dataset = BCPDataset(trainer.mode)
+        NUM_CLASSES = 2
+        CLASS_LABELS = ['x1', 'x2']
+        _dataset = BCPDataset(trainer.mode, trainer.dataset_root, NUM_CLASSES, CLASS_LABELS)
         # 3. set criterion
         _loss_func = nn.BCELoss()
         # 4. set optimizer, initializing in train_val since the model is not setting yet
@@ -37,7 +39,9 @@ def get_model_settings(trainer):
         _model = LogisticRegression(28*28, 10)
         # 2.
         from dataset.Mnist import MnistDataset
-        _dataset = MnistDataset(trainer)
+        NUM_CLASSES = 10
+        CLASS_LABELS = ['1','2','3','4','5','6','7','8','9','10']
+        _dataset = MnistDataset(trainer.mode, trainer.dataset_root, NUM_CLASSES, CLASS_LABELS)
         # 3.
         _loss_func = nn.CrossEntropyLoss()
         # 4.

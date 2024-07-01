@@ -34,7 +34,7 @@ class Tester(object):
         self.test_loader = get_loader(self, dataset, pin_memory=True, num_workers=1)
 
         # 7. set metrics
-        self.metrics = metrics.Metrics(self.save_path, self.model_name)
+        self.metrics = metrics.Metrics(self.model_name, dataset.NUM_CLASSES, dataset.CLASS_LABELS, self.save_path)
 
 
     def testing(self):
@@ -42,15 +42,18 @@ class Tester(object):
         for iteration, batch in enumerate(self.test_loader):
             x, y = batch['x'], batch['y']
             x, y = x.cuda(), y.cuda()
+            x = x.float()
             with torch.no_grad():
                 output = self.model(x)
             output = output.squeeze()
-            loss = self.criterion(output, y.float())
+            if self.criterion._get_name() == 'BCELoss':
+                y = y.float()
+            loss = self.criterion(output, y)
             epoch_loss += loss.item()
             self.metrics.add_batch(y, output)
         epoch_loss /= len(self.test_loader)
         self.logging(epoch_loss, 'test')
-        self.metrics.confusion_matrix_map(0, 'test')
+        self.metrics.confusion_matrix_map(0, 'test', 1)
         self.metrics.reset()
 
 

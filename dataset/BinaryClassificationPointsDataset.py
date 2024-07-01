@@ -3,6 +3,7 @@ import numpy as np
 import torch
 import os
 from torch.utils import data
+from dataset._common_Dataset_attributes import *
 
   # any random number
 
@@ -18,10 +19,11 @@ def set_seed(seed):
     torch.backends.cudnn.benchmark = False  # True的话会自动寻找最适合当前配置的高效算法，来达到优化运行效率的问题。False保证实验结果可复现
 
 
-class BCPDataset(data.Dataset):
-    def __init__(self, mode):
+class BCPDataset(ClassificationDataset):
+    def __init__(self, mode, dataset_root, NUM_CLASSES, CLASS_LABELS):
+        super().__init__(mode, dataset_root, NUM_CLASSES, CLASS_LABELS)
         if mode == 'train':
-            set_seed(107)
+            set_seed(103)
         else:
             set_seed(27)
         x1 = torch.randn(400) + 1.5  # 生成400个满足标准正态分布的数字，均值为“0”，方差为“1”

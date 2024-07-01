@@ -1,0 +1,10 @@
+Total time - 00:00:05, Each epoch time - 00:00:05
+Total time - 00:00:10, Each epoch time - 00:00:05
+Total time - 00:00:16, Each epoch time - 00:00:05
+Total time - 00:00:21, Each epoch time - 00:00:05
+Total time - 00:00:27, Each epoch time - 00:00:05
+Total time - 00:00:32, Each epoch time - 00:00:05
+Total time - 00:00:37, Each epoch time - 00:00:05
+Total time - 00:00:42, Each epoch time - 00:00:05
+Total time - 00:00:47, Each epoch time - 00:00:05
+Total time - 00:00:53, Each epoch time - 00:00:05
