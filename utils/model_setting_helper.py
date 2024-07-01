@@ -29,10 +29,19 @@ def get_model_settings(trainer):
         _dataset = BCPDataset(trainer.mode)
         # 3. set criterion
         _loss_func = nn.BCELoss()
-        # 4. set optimizer
-        _optimizer = torch.optim.SGD(trainer.model.parameters(), lr=trainer.lr)
-    elif ...:
-        ...
+        # 4. set optimizer, initializing in train_val since the model is not setting yet
+        _optimizer = torch.optim.SGD
+    elif trainer.model_name == 'multiclass_lr':
+        # 1.
+        from models.LogesticRegression import LogisticRegression
+        _model = LogisticRegression(28*28, 10)
+        # 2.
+        from dataset.Mnist import MnistDataset
+        _dataset = MnistDataset(trainer)
+        # 3.
+        _loss_func = nn.CrossEntropyLoss()
+        # 4.
+        _optimizer = torch.optim.SGD
     else:
         raise NotImplementedError('model: ' + trainer.model_name + ' not implemented')
     return _model, _dataset, _loss_func, _optimizer

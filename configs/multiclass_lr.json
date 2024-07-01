@@ -1,0 +1,7 @@
+{
+    "dataset_root" : "./dataset/mnist",
+    "batch_size" : 100,
+    "epoch" : 3000,
+    "lr": 1e-3,
+    "val": true
+}

@@ -9,4 +9,4 @@ class LogisticRegression(torch.nn.Module):
 
     def forward(self, x):
         outputs = self.linear(x)
-        return softmax(outputs)
+        return softmax(outputs, dim=1)

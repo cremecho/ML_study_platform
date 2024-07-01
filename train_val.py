@@ -1,9 +1,12 @@
+import sys
+
 import torch
 from torch.autograd import Variable
 import os
 import time
 from datetime import datetime
 import json
+import atexit
 
 from utils import metrics
 from utils.model_setting_helper import *
@@ -68,8 +71,7 @@ class Trainer(object):
         """
 
         # 1. set configs
-        if not len(configs) == 9:
-            complete_settings(configs)
+        complete_settings(configs)
         for k,v in configs.items():
             setattr(self, k, v)
         # training mode
@@ -82,7 +84,7 @@ class Trainer(object):
         self.model = model
         self.model = model.cuda()
         self.criterion = loss_func
-        self.optimizer = optimizer
+        self.optimizer = optimizer(model.parameters(), lr=self.lr)
 
         # 6. get dataloader
         self.train_loader, self.val_loader = get_loader(trainer=self, dataset=dataset, pin_memory=True, num_workers=1)
@@ -90,6 +92,8 @@ class Trainer(object):
         # 7. set metrics
         self.metrics = metrics.Metrics(self.save_path, self.model_name)
 
+        # 8. record training time
+        self.start_time = time.time()
 
 
     def train(self):
@@ -99,11 +103,16 @@ class Trainer(object):
                 self.optimizer.zero_grad()
                 x,y = batch['x'], batch['y']
                 x,y = x.cuda(), y.cuda()
+                x = x.float()
                 x = Variable(x)
+
 
                 output = self.model(x)
                 output = output.squeeze()
-                loss = self.criterion(output, y.float())
+
+                if self.criterion._get_name() == 'BCELoss':
+                    y = y.float()
+                loss = self.criterion(output, y)
                 self.metrics.add_batch(y, output)
                 epoch_loss += loss.item()
 
@@ -112,12 +121,11 @@ class Trainer(object):
                 self.optimizer.step()
             # TODO: make dir, save confusion matrix plots
             self.logging(epoch, epoch_loss/len(self.train_loader), 'train')
-            self.metrics.confusion_matrix_map(epoch, 'train')
             self.metrics.reset()
             if self.val:
                 self.validation(epoch)
             # save last epoch model
-            if epoch == self.epoch - 1:
+            if epoch == self.epoch:
                 torch.save(self.model.state_dict(), os.path.join(self.save_path, 'last_epoch.pth'))
 
 
@@ -127,20 +135,22 @@ class Trainer(object):
         for iteration, batch in enumerate(self.val_loader):
             x, y = batch['x'], batch['y']
             x, y = x.cuda(), y.cuda()
+            x = x.float()
             with torch.no_grad():
                 output = self.model(x)
             output = output.squeeze()
 
-            loss = self.criterion(output, y.float())
+            if self.criterion._get_name() == 'BCELoss':
+                y = y.float()
+            loss = self.criterion(output, y)
             epoch_loss += loss.item()
-            self.metrics.add_batch_binary(y, output)
+            self.metrics.add_batch(y, output)
         epoch_loss /= len(self.val_loader)
         self.logging(epoch, epoch_loss, 'val')
         # save best predict model
         if self.metrics.Accuracy() > self.best_pred:
             self.best_pred = self.metrics.Accuracy()
             torch.save(self.model.state_dict(), os.path.join(self.save_path, 'best_epoch.pth'))
-        self.metrics.confusion_matrix_map(epoch, 'val')
         self.metrics.reset()
 
 
@@ -160,6 +170,28 @@ class Trainer(object):
             print(str_loss, file=f)
             print(str_metrics, file=f)
 
+        self.metrics.confusion_matrix_map(epoch, mode)
+        model_config['epoch'] = epoch
+        plot_metrics(configs=model_config, file_name='%s.txt' % mode, metrics_ls=[])
+        #plot_metrics(configs=model_config, file_name='val.txt', metrics_ls=[])
+        if mode == 'val':
+            plot_loss(configs=model_config)
+
+            current_time = time.time()
+            total_time = current_time - self.start_time
+            epoch_time = total_time / epoch
+            h_total, m_total, s_total = divmod(divmod(total_time, 60)[0], 60)[0], divmod(total_time, 60)[0], \
+                                        divmod(total_time, 60)[1]
+            h_epoch, m_epoch, s_epoch = divmod(divmod(epoch_time, 60)[0], 60)[0], divmod(epoch_time, 60)[0], \
+                                        divmod(epoch_time, 60)[1]
+
+            str = 'Total time - %02d:%02d:%02d, Each epoch time - %02d:%02d:%02d' % (
+            h_total, m_total, s_total, h_epoch, m_epoch, s_epoch)
+            with open (os.path.join(self.save_path, 'time.txt'), 'a+') as f:
+                print(str)
+                print(str, file=f)
+
+
 
 if __name__ == '__main__':
     # loading the configs for the specified model
@@ -171,8 +203,6 @@ if __name__ == '__main__':
     # make the dir for saving results
     save_config(model_config)
 
+
     trainer = Trainer(model_config)
     trainer.train()
-    plot_metrics(configs=model_config, file_name='train.txt', metrics_ls=[])
-    plot_metrics(configs=model_config, file_name='val.txt', metrics_ls=[])
-    plot_loss(configs=model_config)

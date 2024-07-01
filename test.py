@@ -11,8 +11,7 @@ from utils.model_setting_helper import *
 class Tester(object):
     def __init__(self, configs):
         # 1. set configs
-        if not len(configs) == 9:
-            complete_settings(configs)
+        complete_settings(configs)
         for k,v in configs.items():
             setattr(self, k, v)
         # test's save folder is the folder that stores the pth model
@@ -29,7 +28,7 @@ class Tester(object):
         self.model.eval()
 
         self.criterion = loss_func
-        self.optimizer = optimizer
+        self.optimizer = optimizer(model.parameters(), lr=self.lr)
 
         # 6. get dataloader
         self.test_loader = get_loader(self, dataset, pin_memory=True, num_workers=1)

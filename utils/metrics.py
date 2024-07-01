@@ -9,7 +9,7 @@ np.seterr(divide='ignore', invalid='ignore')
 
 class Metrics:
     def __init__(self, save_path, model_name):
-        self.NUM_CLASSES = 2     # ['MEL','NV','BCC','AK', 'BKL', 'DF', 'VASC','SCC']
+        self.NUM_CLASSES = 10     # ['MEL','NV','BCC','AK', 'BKL', 'DF', 'VASC','SCC']
         self.labels = np.arange(self.NUM_CLASSES)
         self.cm = np.zeros((self.NUM_CLASSES,) * 2)
         self.save_path = save_path
@@ -85,7 +85,7 @@ class Metrics:
         if not epoch % 10 == 0:
             return
         temp_cm = np.array(self.cm, dtype='int')
-        xylabel = ['x1', 'x2']
+        xylabel = ['1','2','3','4','5','6','7','8','9','10']
         plt.figure(figsize=(30, 30))
         plt.ticklabel_format(style='plain')
         plot = ConfusionMatrixDisplay(temp_cm, display_labels=xylabel, )

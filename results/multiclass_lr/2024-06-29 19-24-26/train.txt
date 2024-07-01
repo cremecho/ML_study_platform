@@ -1,0 +1,1000 @@
+train, epoch: 1, loss=2.27575
+Acc: 0.185, Class Acc: 0.189, Sensitivity: 0.948, Specificity: 0.673, F1-Score: 0.385
+train, epoch: 2, loss=2.26986
+Acc: 0.191, Class Acc: 0.195, Sensitivity: 0.996, Specificity: 0.515, F1-Score: 0.310
+train, epoch: 3, loss=2.26739
+Acc: 0.194, Class Acc: 0.198, Sensitivity: 0.987, Specificity: 0.585, F1-Score: 0.342
+train, epoch: 4, loss=2.26768
+Acc: 0.193, Class Acc: 0.197, Sensitivity: 0.994, Specificity: 0.580, F1-Score: 0.341
+train, epoch: 5, loss=2.26626
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.996, Specificity: 0.561, F1-Score: 0.332
+train, epoch: 6, loss=2.26775
+Acc: 0.193, Class Acc: 0.197, Sensitivity: 0.984, Specificity: 0.571, F1-Score: 0.334
+train, epoch: 7, loss=2.26708
+Acc: 0.194, Class Acc: 0.198, Sensitivity: 0.992, Specificity: 0.463, F1-Score: 0.288
+train, epoch: 8, loss=2.26646
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.993, Specificity: 0.491, F1-Score: 0.299
+train, epoch: 9, loss=2.26680
+Acc: 0.194, Class Acc: 0.198, Sensitivity: 0.992, Specificity: 0.507, F1-Score: 0.306
+train, epoch: 10, loss=2.26669
+Acc: 0.194, Class Acc: 0.198, Sensitivity: 0.994, Specificity: 0.466, F1-Score: 0.290
+train, epoch: 11, loss=2.26644
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.993, Specificity: 0.537, F1-Score: 0.319
+train, epoch: 12, loss=2.26648
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.994, Specificity: 0.538, F1-Score: 0.320
+train, epoch: 13, loss=2.26661
+Acc: 0.194, Class Acc: 0.198, Sensitivity: 0.988, Specificity: 0.681, F1-Score: 0.403
+train, epoch: 14, loss=2.26670
+Acc: 0.194, Class Acc: 0.198, Sensitivity: 0.988, Specificity: 0.701, F1-Score: 0.419
+train, epoch: 15, loss=2.26617
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.992, Specificity: 0.708, F1-Score: 0.426
+train, epoch: 16, loss=2.26610
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.586, F1-Score: 0.345
+train, epoch: 17, loss=2.26701
+Acc: 0.194, Class Acc: 0.198, Sensitivity: 0.983, Specificity: 0.747, F1-Score: 0.458
+train, epoch: 18, loss=2.26606
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.993, Specificity: 0.639, F1-Score: 0.376
+train, epoch: 19, loss=2.26651
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.988, Specificity: 0.704, F1-Score: 0.421
+train, epoch: 20, loss=2.26602
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.995, Specificity: 0.638, F1-Score: 0.375
+train, epoch: 21, loss=2.26606
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.994, Specificity: 0.663, F1-Score: 0.392
+train, epoch: 22, loss=2.26614
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.996, Specificity: 0.593, F1-Score: 0.349
+train, epoch: 23, loss=2.26651
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.481, F1-Score: 0.296
+train, epoch: 24, loss=2.26631
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.996, Specificity: 0.506, F1-Score: 0.306
+train, epoch: 25, loss=2.26640
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.995, Specificity: 0.506, F1-Score: 0.306
+train, epoch: 26, loss=2.26628
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.992, Specificity: 0.625, F1-Score: 0.367
+train, epoch: 27, loss=2.26615
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.993, Specificity: 0.664, F1-Score: 0.392
+train, epoch: 28, loss=2.26583
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.996, Specificity: 0.623, F1-Score: 0.367
+train, epoch: 29, loss=2.26613
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.998, Specificity: 0.527, F1-Score: 0.316
+train, epoch: 30, loss=2.26621
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.998, Specificity: 0.505, F1-Score: 0.306
+train, epoch: 31, loss=2.26599
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.996, Specificity: 0.661, F1-Score: 0.391
+train, epoch: 32, loss=2.26630
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.994, Specificity: 0.712, F1-Score: 0.430
+train, epoch: 33, loss=2.26599
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.996, Specificity: 0.721, F1-Score: 0.439
+train, epoch: 34, loss=2.26630
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.993, Specificity: 0.756, F1-Score: 0.471
+train, epoch: 35, loss=2.26777
+Acc: 0.193, Class Acc: 0.197, Sensitivity: 0.976, Specificity: 0.875, F1-Score: 0.627
+train, epoch: 36, loss=2.26628
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.996, Specificity: 0.688, F1-Score: 0.411
+train, epoch: 37, loss=2.26689
+Acc: 0.194, Class Acc: 0.198, Sensitivity: 0.984, Specificity: 0.862, F1-Score: 0.608
+train, epoch: 38, loss=2.26624
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.994, Specificity: 0.761, F1-Score: 0.476
+train, epoch: 39, loss=2.26620
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.994, Specificity: 0.785, F1-Score: 0.503
+train, epoch: 40, loss=2.26620
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.992, Specificity: 0.829, F1-Score: 0.559
+train, epoch: 41, loss=2.26674
+Acc: 0.194, Class Acc: 0.198, Sensitivity: 0.997, Specificity: 0.630, F1-Score: 0.371
+train, epoch: 42, loss=2.26749
+Acc: 0.194, Class Acc: 0.198, Sensitivity: 0.997, Specificity: 0.621, F1-Score: 0.366
+train, epoch: 43, loss=2.26616
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.995, Specificity: 0.759, F1-Score: 0.474
+train, epoch: 44, loss=2.26608
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.996, Specificity: 0.727, F1-Score: 0.444
+train, epoch: 45, loss=2.26613
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.995, Specificity: 0.737, F1-Score: 0.453
+train, epoch: 46, loss=2.26659
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.994, Specificity: 0.686, F1-Score: 0.409
+train, epoch: 47, loss=2.26635
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.603, F1-Score: 0.355
+train, epoch: 48, loss=2.26643
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.558, F1-Score: 0.331
+train, epoch: 49, loss=2.26624
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.996, Specificity: 0.597, F1-Score: 0.351
+train, epoch: 50, loss=2.26630
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.559, F1-Score: 0.331
+train, epoch: 51, loss=2.26641
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.998, Specificity: 0.536, F1-Score: 0.320
+train, epoch: 52, loss=2.26638
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.998, Specificity: 0.519, F1-Score: 0.313
+train, epoch: 53, loss=2.26612
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.538, F1-Score: 0.321
+train, epoch: 54, loss=2.26625
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.527, F1-Score: 0.316
+train, epoch: 55, loss=2.26619
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.995, Specificity: 0.595, F1-Score: 0.350
+train, epoch: 56, loss=2.26647
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.993, Specificity: 0.567, F1-Score: 0.334
+train, epoch: 57, loss=2.26604
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.995, Specificity: 0.646, F1-Score: 0.381
+train, epoch: 58, loss=2.26612
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.993, Specificity: 0.695, F1-Score: 0.416
+train, epoch: 59, loss=2.26624
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.994, Specificity: 0.624, F1-Score: 0.367
+train, epoch: 60, loss=2.26635
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.998, Specificity: 0.465, F1-Score: 0.290
+train, epoch: 61, loss=2.26598
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.541, F1-Score: 0.322
+train, epoch: 62, loss=2.26596
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.996, Specificity: 0.613, F1-Score: 0.361
+train, epoch: 63, loss=2.26602
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.995, Specificity: 0.667, F1-Score: 0.395
+train, epoch: 64, loss=2.26612
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.994, Specificity: 0.648, F1-Score: 0.382
+train, epoch: 65, loss=2.26597
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.996, Specificity: 0.612, F1-Score: 0.360
+train, epoch: 66, loss=2.26602
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.543, F1-Score: 0.323
+train, epoch: 67, loss=2.26600
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.545, F1-Score: 0.324
+train, epoch: 68, loss=2.26706
+Acc: 0.194, Class Acc: 0.198, Sensitivity: 0.998, Specificity: 0.452, F1-Score: 0.285
+train, epoch: 69, loss=2.26595
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.996, Specificity: 0.569, F1-Score: 0.336
+train, epoch: 70, loss=2.26597
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.996, Specificity: 0.561, F1-Score: 0.332
+train, epoch: 71, loss=2.26594
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.518, F1-Score: 0.312
+train, epoch: 72, loss=2.26662
+Acc: 0.194, Class Acc: 0.199, Sensitivity: 0.998, Specificity: 0.444, F1-Score: 0.282
+train, epoch: 73, loss=2.26671
+Acc: 0.194, Class Acc: 0.198, Sensitivity: 0.999, Specificity: 0.405, F1-Score: 0.269
+train, epoch: 74, loss=2.26636
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.999, Specificity: 0.437, F1-Score: 0.280
+train, epoch: 75, loss=2.26609
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.998, Specificity: 0.461, F1-Score: 0.289
+train, epoch: 76, loss=2.26611
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.998, Specificity: 0.494, F1-Score: 0.302
+train, epoch: 77, loss=2.26588
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.579, F1-Score: 0.342
+train, epoch: 78, loss=2.26593
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.613, F1-Score: 0.361
+train, epoch: 79, loss=2.26632
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.998, Specificity: 0.533, F1-Score: 0.319
+train, epoch: 80, loss=2.26615
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.590, F1-Score: 0.348
+train, epoch: 81, loss=2.26672
+Acc: 0.194, Class Acc: 0.198, Sensitivity: 0.987, Specificity: 0.748, F1-Score: 0.460
+train, epoch: 82, loss=2.26668
+Acc: 0.194, Class Acc: 0.198, Sensitivity: 0.987, Specificity: 0.768, F1-Score: 0.481
+train, epoch: 83, loss=2.26601
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.998, Specificity: 0.501, F1-Score: 0.305
+train, epoch: 84, loss=2.26595
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.998, Specificity: 0.508, F1-Score: 0.308
+train, epoch: 85, loss=2.26587
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.532, F1-Score: 0.318
+train, epoch: 86, loss=2.26589
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.526, F1-Score: 0.315
+train, epoch: 87, loss=2.26589
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.996, Specificity: 0.581, F1-Score: 0.342
+train, epoch: 88, loss=2.26594
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.996, Specificity: 0.596, F1-Score: 0.350
+train, epoch: 89, loss=2.26582
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.597, F1-Score: 0.351
+train, epoch: 90, loss=2.26615
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.994, Specificity: 0.606, F1-Score: 0.356
+train, epoch: 91, loss=2.26605
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.998, Specificity: 0.477, F1-Score: 0.295
+train, epoch: 92, loss=2.26596
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.998, Specificity: 0.483, F1-Score: 0.297
+train, epoch: 93, loss=2.26579
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.573, F1-Score: 0.338
+train, epoch: 94, loss=2.26583
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.558, F1-Score: 0.331
+train, epoch: 95, loss=2.26592
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.511, F1-Score: 0.309
+train, epoch: 96, loss=2.26575
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.579, F1-Score: 0.341
+train, epoch: 97, loss=2.26575
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.996, Specificity: 0.596, F1-Score: 0.351
+train, epoch: 98, loss=2.26586
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.996, Specificity: 0.594, F1-Score: 0.349
+train, epoch: 99, loss=2.26607
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.993, Specificity: 0.627, F1-Score: 0.368
+train, epoch: 100, loss=2.26637
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.990, Specificity: 0.691, F1-Score: 0.412
+train, epoch: 101, loss=2.26645
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.989, Specificity: 0.700, F1-Score: 0.419
+train, epoch: 102, loss=2.26603
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.993, Specificity: 0.663, F1-Score: 0.392
+train, epoch: 103, loss=2.26612
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.995, Specificity: 0.608, F1-Score: 0.357
+train, epoch: 104, loss=2.26592
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.567, F1-Score: 0.336
+train, epoch: 105, loss=2.26589
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.997, Specificity: 0.581, F1-Score: 0.343
+train, epoch: 106, loss=2.26588
+Acc: 0.195, Class Acc: 0.199, Sensitivity: 0.996, Specificity: 0.610, F1-Score: 0.359
+train, epoch: 107, loss=2.17143
+Acc: 0.290, Class Acc: 0.283, Sensitivity: 0.979, Specificity: 0.853, F1-Score: 0.590
+train, epoch: 108, loss=2.15689
+Acc: 0.304, Class Acc: 0.296, Sensitivity: 0.982, Specificity: 0.848, F1-Score: 0.583
+train, epoch: 109, loss=2.15634
+Acc: 0.305, Class Acc: 0.297, Sensitivity: 0.996, Specificity: 0.710, F1-Score: 0.429
+train, epoch: 110, loss=2.15583
+Acc: 0.305, Class Acc: 0.297, Sensitivity: 0.994, Specificity: 0.781, F1-Score: 0.498
+train, epoch: 111, loss=2.15572
+Acc: 0.305, Class Acc: 0.297, Sensitivity: 0.995, Specificity: 0.757, F1-Score: 0.473
+train, epoch: 112, loss=2.15568
+Acc: 0.305, Class Acc: 0.298, Sensitivity: 0.996, Specificity: 0.732, F1-Score: 0.449
+train, epoch: 113, loss=2.15573
+Acc: 0.305, Class Acc: 0.297, Sensitivity: 0.996, Specificity: 0.723, F1-Score: 0.440
+train, epoch: 114, loss=2.15598
+Acc: 0.305, Class Acc: 0.297, Sensitivity: 0.995, Specificity: 0.747, F1-Score: 0.462
+train, epoch: 115, loss=2.15664
+Acc: 0.304, Class Acc: 0.297, Sensitivity: 0.997, Specificity: 0.660, F1-Score: 0.391
+train, epoch: 116, loss=2.15592
+Acc: 0.305, Class Acc: 0.297, Sensitivity: 0.996, Specificity: 0.703, F1-Score: 0.424
+train, epoch: 117, loss=2.15626
+Acc: 0.305, Class Acc: 0.297, Sensitivity: 0.996, Specificity: 0.752, F1-Score: 0.468
+train, epoch: 118, loss=2.15568
+Acc: 0.305, Class Acc: 0.297, Sensitivity: 0.994, Specificity: 0.799, F1-Score: 0.519
+train, epoch: 119, loss=2.15570
+Acc: 0.305, Class Acc: 0.297, Sensitivity: 0.988, Specificity: 0.855, F1-Score: 0.597
+train, epoch: 120, loss=2.15551
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.993, Specificity: 0.807, F1-Score: 0.529
+train, epoch: 121, loss=2.15537
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.993, Specificity: 0.816, F1-Score: 0.541
+train, epoch: 122, loss=2.15565
+Acc: 0.305, Class Acc: 0.298, Sensitivity: 0.994, Specificity: 0.798, F1-Score: 0.518
+train, epoch: 123, loss=2.15534
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.995, Specificity: 0.772, F1-Score: 0.489
+train, epoch: 124, loss=2.15639
+Acc: 0.305, Class Acc: 0.297, Sensitivity: 0.997, Specificity: 0.685, F1-Score: 0.409
+train, epoch: 125, loss=2.15689
+Acc: 0.304, Class Acc: 0.296, Sensitivity: 0.996, Specificity: 0.694, F1-Score: 0.416
+train, epoch: 126, loss=2.15774
+Acc: 0.303, Class Acc: 0.295, Sensitivity: 0.997, Specificity: 0.631, F1-Score: 0.372
+train, epoch: 127, loss=2.15549
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.996, Specificity: 0.707, F1-Score: 0.427
+train, epoch: 128, loss=2.15572
+Acc: 0.305, Class Acc: 0.298, Sensitivity: 0.994, Specificity: 0.754, F1-Score: 0.469
+train, epoch: 129, loss=2.15558
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.996, Specificity: 0.710, F1-Score: 0.430
+train, epoch: 130, loss=2.15555
+Acc: 0.305, Class Acc: 0.298, Sensitivity: 0.997, Specificity: 0.667, F1-Score: 0.396
+train, epoch: 131, loss=2.15559
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.996, Specificity: 0.733, F1-Score: 0.449
+train, epoch: 132, loss=2.15538
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.993, Specificity: 0.783, F1-Score: 0.500
+train, epoch: 133, loss=2.15601
+Acc: 0.305, Class Acc: 0.297, Sensitivity: 0.991, Specificity: 0.788, F1-Score: 0.505
+train, epoch: 134, loss=2.15579
+Acc: 0.305, Class Acc: 0.297, Sensitivity: 0.991, Specificity: 0.811, F1-Score: 0.534
+train, epoch: 135, loss=2.15599
+Acc: 0.305, Class Acc: 0.297, Sensitivity: 0.985, Specificity: 0.879, F1-Score: 0.638
+train, epoch: 136, loss=2.15581
+Acc: 0.305, Class Acc: 0.297, Sensitivity: 0.986, Specificity: 0.889, F1-Score: 0.658
+train, epoch: 137, loss=2.15525
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.995, Specificity: 0.767, F1-Score: 0.483
+train, epoch: 138, loss=2.15533
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.997, Specificity: 0.727, F1-Score: 0.445
+train, epoch: 139, loss=2.15545
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.997, Specificity: 0.729, F1-Score: 0.446
+train, epoch: 140, loss=2.15525
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.996, Specificity: 0.768, F1-Score: 0.484
+train, epoch: 141, loss=2.15595
+Acc: 0.305, Class Acc: 0.297, Sensitivity: 0.997, Specificity: 0.684, F1-Score: 0.408
+train, epoch: 142, loss=2.15524
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.997, Specificity: 0.740, F1-Score: 0.456
+train, epoch: 143, loss=2.15748
+Acc: 0.304, Class Acc: 0.296, Sensitivity: 0.998, Specificity: 0.659, F1-Score: 0.391
+train, epoch: 144, loss=2.15567
+Acc: 0.305, Class Acc: 0.298, Sensitivity: 0.997, Specificity: 0.683, F1-Score: 0.408
+train, epoch: 145, loss=2.15513
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.997, Specificity: 0.715, F1-Score: 0.434
+train, epoch: 146, loss=2.15500
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.996, Specificity: 0.740, F1-Score: 0.457
+train, epoch: 147, loss=2.15481
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.996, Specificity: 0.795, F1-Score: 0.516
+train, epoch: 148, loss=2.15501
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.990, Specificity: 0.845, F1-Score: 0.581
+train, epoch: 149, loss=2.15518
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.993, Specificity: 0.797, F1-Score: 0.517
+train, epoch: 150, loss=2.15511
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.997, Specificity: 0.718, F1-Score: 0.437
+train, epoch: 151, loss=2.15490
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.996, Specificity: 0.774, F1-Score: 0.491
+train, epoch: 152, loss=2.15528
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.996, Specificity: 0.772, F1-Score: 0.489
+train, epoch: 153, loss=2.15519
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.996, Specificity: 0.779, F1-Score: 0.497
+train, epoch: 154, loss=2.15515
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.992, Specificity: 0.831, F1-Score: 0.562
+train, epoch: 155, loss=2.15504
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.991, Specificity: 0.831, F1-Score: 0.561
+train, epoch: 156, loss=2.15531
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.988, Specificity: 0.872, F1-Score: 0.625
+train, epoch: 157, loss=2.15599
+Acc: 0.305, Class Acc: 0.297, Sensitivity: 0.981, Specificity: 0.884, F1-Score: 0.645
+train, epoch: 158, loss=2.15494
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.992, Specificity: 0.827, F1-Score: 0.556
+train, epoch: 159, loss=2.15472
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.997, Specificity: 0.744, F1-Score: 0.460
+train, epoch: 160, loss=2.15503
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.997, Specificity: 0.705, F1-Score: 0.425
+train, epoch: 161, loss=2.15514
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.997, Specificity: 0.711, F1-Score: 0.430
+train, epoch: 162, loss=2.15516
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.997, Specificity: 0.700, F1-Score: 0.421
+train, epoch: 163, loss=2.15494
+Acc: 0.306, Class Acc: 0.298, Sensitivity: 0.993, Specificity: 0.789, F1-Score: 0.506
+train, epoch: 164, loss=2.15088
+Acc: 0.310, Class Acc: 0.302, Sensitivity: 0.993, Specificity: 0.824, F1-Score: 0.552
+train, epoch: 165, loss=2.07603
+Acc: 0.385, Class Acc: 0.374, Sensitivity: 0.889, Specificity: 0.959, F1-Score: 0.787
+train, epoch: 166, loss=2.06580
+Acc: 0.395, Class Acc: 0.385, Sensitivity: 0.984, Specificity: 0.892, F1-Score: 0.663
+train, epoch: 167, loss=2.06350
+Acc: 0.398, Class Acc: 0.387, Sensitivity: 0.981, Specificity: 0.904, F1-Score: 0.688
+train, epoch: 168, loss=2.06325
+Acc: 0.398, Class Acc: 0.387, Sensitivity: 0.976, Specificity: 0.909, F1-Score: 0.696
+train, epoch: 169, loss=2.06030
+Acc: 0.401, Class Acc: 0.390, Sensitivity: 0.989, Specificity: 0.884, F1-Score: 0.649
+train, epoch: 170, loss=2.06046
+Acc: 0.401, Class Acc: 0.390, Sensitivity: 0.991, Specificity: 0.879, F1-Score: 0.641
+train, epoch: 171, loss=2.05979
+Acc: 0.401, Class Acc: 0.391, Sensitivity: 0.985, Specificity: 0.910, F1-Score: 0.703
+train, epoch: 172, loss=2.05943
+Acc: 0.402, Class Acc: 0.391, Sensitivity: 0.978, Specificity: 0.933, F1-Score: 0.757
+train, epoch: 173, loss=2.06038
+Acc: 0.401, Class Acc: 0.390, Sensitivity: 0.987, Specificity: 0.933, F1-Score: 0.760
+train, epoch: 174, loss=2.05903
+Acc: 0.402, Class Acc: 0.391, Sensitivity: 0.968, Specificity: 0.952, F1-Score: 0.806
+train, epoch: 175, loss=2.05774
+Acc: 0.403, Class Acc: 0.393, Sensitivity: 0.986, Specificity: 0.933, F1-Score: 0.760
+train, epoch: 176, loss=2.05794
+Acc: 0.403, Class Acc: 0.393, Sensitivity: 0.990, Specificity: 0.911, F1-Score: 0.707
+train, epoch: 177, loss=2.05758
+Acc: 0.404, Class Acc: 0.393, Sensitivity: 0.985, Specificity: 0.921, F1-Score: 0.728
+train, epoch: 178, loss=2.05740
+Acc: 0.404, Class Acc: 0.393, Sensitivity: 0.982, Specificity: 0.922, F1-Score: 0.728
+train, epoch: 179, loss=2.05790
+Acc: 0.403, Class Acc: 0.393, Sensitivity: 0.993, Specificity: 0.879, F1-Score: 0.641
+train, epoch: 180, loss=2.05937
+Acc: 0.402, Class Acc: 0.391, Sensitivity: 0.991, Specificity: 0.888, F1-Score: 0.658
+train, epoch: 181, loss=2.05671
+Acc: 0.404, Class Acc: 0.394, Sensitivity: 0.987, Specificity: 0.918, F1-Score: 0.721
+train, epoch: 182, loss=2.05788
+Acc: 0.403, Class Acc: 0.393, Sensitivity: 0.994, Specificity: 0.873, F1-Score: 0.631
+train, epoch: 183, loss=2.05688
+Acc: 0.404, Class Acc: 0.394, Sensitivity: 0.988, Specificity: 0.910, F1-Score: 0.704
+train, epoch: 184, loss=2.05757
+Acc: 0.404, Class Acc: 0.393, Sensitivity: 0.994, Specificity: 0.875, F1-Score: 0.634
+train, epoch: 185, loss=2.05777
+Acc: 0.403, Class Acc: 0.393, Sensitivity: 0.983, Specificity: 0.911, F1-Score: 0.704
+train, epoch: 186, loss=2.05646
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.989, Specificity: 0.908, F1-Score: 0.699
+train, epoch: 187, loss=2.05665
+Acc: 0.404, Class Acc: 0.394, Sensitivity: 0.987, Specificity: 0.911, F1-Score: 0.705
+train, epoch: 188, loss=2.05607
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.991, Specificity: 0.896, F1-Score: 0.674
+train, epoch: 189, loss=2.05637
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.990, Specificity: 0.891, F1-Score: 0.663
+train, epoch: 190, loss=2.05785
+Acc: 0.403, Class Acc: 0.393, Sensitivity: 0.994, Specificity: 0.845, F1-Score: 0.583
+train, epoch: 191, loss=2.05665
+Acc: 0.404, Class Acc: 0.394, Sensitivity: 0.989, Specificity: 0.890, F1-Score: 0.660
+train, epoch: 192, loss=2.05654
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.988, Specificity: 0.883, F1-Score: 0.647
+train, epoch: 193, loss=2.05659
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.992, Specificity: 0.891, F1-Score: 0.665
+train, epoch: 194, loss=2.05757
+Acc: 0.404, Class Acc: 0.393, Sensitivity: 0.983, Specificity: 0.918, F1-Score: 0.719
+train, epoch: 195, loss=2.05657
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.990, Specificity: 0.875, F1-Score: 0.633
+train, epoch: 196, loss=2.05718
+Acc: 0.404, Class Acc: 0.393, Sensitivity: 0.992, Specificity: 0.862, F1-Score: 0.609
+train, epoch: 197, loss=2.05646
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.993, Specificity: 0.875, F1-Score: 0.634
+train, epoch: 198, loss=2.05631
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.991, Specificity: 0.898, F1-Score: 0.678
+train, epoch: 199, loss=2.05655
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.987, Specificity: 0.917, F1-Score: 0.718
+train, epoch: 200, loss=2.05689
+Acc: 0.404, Class Acc: 0.394, Sensitivity: 0.978, Specificity: 0.930, F1-Score: 0.747
+train, epoch: 201, loss=2.05622
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.991, Specificity: 0.892, F1-Score: 0.667
+train, epoch: 202, loss=2.05673
+Acc: 0.404, Class Acc: 0.394, Sensitivity: 0.979, Specificity: 0.911, F1-Score: 0.702
+train, epoch: 203, loss=2.05714
+Acc: 0.404, Class Acc: 0.393, Sensitivity: 0.980, Specificity: 0.917, F1-Score: 0.715
+train, epoch: 204, loss=2.05637
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.986, Specificity: 0.910, F1-Score: 0.703
+train, epoch: 205, loss=2.05750
+Acc: 0.404, Class Acc: 0.393, Sensitivity: 0.990, Specificity: 0.880, F1-Score: 0.643
+train, epoch: 206, loss=2.05652
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.983, Specificity: 0.931, F1-Score: 0.752
+train, epoch: 207, loss=2.05695
+Acc: 0.404, Class Acc: 0.393, Sensitivity: 0.970, Specificity: 0.954, F1-Score: 0.811
+train, epoch: 208, loss=2.05659
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.988, Specificity: 0.916, F1-Score: 0.718
+train, epoch: 209, loss=2.05711
+Acc: 0.404, Class Acc: 0.393, Sensitivity: 0.993, Specificity: 0.874, F1-Score: 0.632
+train, epoch: 210, loss=2.05603
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.993, Specificity: 0.885, F1-Score: 0.653
+train, epoch: 211, loss=2.05679
+Acc: 0.404, Class Acc: 0.394, Sensitivity: 0.980, Specificity: 0.938, F1-Score: 0.769
+train, epoch: 212, loss=2.05628
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.985, Specificity: 0.927, F1-Score: 0.744
+train, epoch: 213, loss=2.05620
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.992, Specificity: 0.902, F1-Score: 0.687
+train, epoch: 214, loss=2.05649
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.993, Specificity: 0.886, F1-Score: 0.655
+train, epoch: 215, loss=2.05742
+Acc: 0.404, Class Acc: 0.393, Sensitivity: 0.993, Specificity: 0.862, F1-Score: 0.611
+train, epoch: 216, loss=2.05707
+Acc: 0.404, Class Acc: 0.393, Sensitivity: 0.979, Specificity: 0.933, F1-Score: 0.755
+train, epoch: 217, loss=2.05583
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.987, Specificity: 0.923, F1-Score: 0.735
+train, epoch: 218, loss=2.05585
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.990, Specificity: 0.914, F1-Score: 0.714
+train, epoch: 219, loss=2.05627
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.992, Specificity: 0.896, F1-Score: 0.674
+train, epoch: 220, loss=2.05836
+Acc: 0.403, Class Acc: 0.392, Sensitivity: 0.994, Specificity: 0.875, F1-Score: 0.635
+train, epoch: 221, loss=2.05694
+Acc: 0.404, Class Acc: 0.393, Sensitivity: 0.989, Specificity: 0.905, F1-Score: 0.693
+train, epoch: 222, loss=2.05731
+Acc: 0.404, Class Acc: 0.393, Sensitivity: 0.986, Specificity: 0.905, F1-Score: 0.692
+train, epoch: 223, loss=2.05811
+Acc: 0.403, Class Acc: 0.392, Sensitivity: 0.980, Specificity: 0.917, F1-Score: 0.717
+train, epoch: 224, loss=2.05881
+Acc: 0.402, Class Acc: 0.392, Sensitivity: 0.970, Specificity: 0.953, F1-Score: 0.810
+train, epoch: 225, loss=2.05997
+Acc: 0.401, Class Acc: 0.390, Sensitivity: 0.958, Specificity: 0.963, F1-Score: 0.834
+train, epoch: 226, loss=2.05748
+Acc: 0.404, Class Acc: 0.393, Sensitivity: 0.990, Specificity: 0.906, F1-Score: 0.695
+train, epoch: 227, loss=2.05653
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.983, Specificity: 0.937, F1-Score: 0.769
+train, epoch: 228, loss=2.05727
+Acc: 0.404, Class Acc: 0.393, Sensitivity: 0.986, Specificity: 0.927, F1-Score: 0.743
+train, epoch: 229, loss=2.05685
+Acc: 0.404, Class Acc: 0.393, Sensitivity: 0.977, Specificity: 0.917, F1-Score: 0.715
+train, epoch: 230, loss=2.05646
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.984, Specificity: 0.926, F1-Score: 0.740
+train, epoch: 231, loss=2.05603
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.985, Specificity: 0.928, F1-Score: 0.747
+train, epoch: 232, loss=2.05565
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.992, Specificity: 0.884, F1-Score: 0.651
+train, epoch: 233, loss=2.05585
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.993, Specificity: 0.872, F1-Score: 0.629
+train, epoch: 234, loss=2.05546
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.992, Specificity: 0.896, F1-Score: 0.674
+train, epoch: 235, loss=2.05532
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.990, Specificity: 0.900, F1-Score: 0.682
+train, epoch: 236, loss=2.05486
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.909, F1-Score: 0.702
+train, epoch: 237, loss=2.05561
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.984, Specificity: 0.929, F1-Score: 0.748
+train, epoch: 238, loss=2.05597
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.978, Specificity: 0.947, F1-Score: 0.794
+train, epoch: 239, loss=2.05684
+Acc: 0.404, Class Acc: 0.394, Sensitivity: 0.976, Specificity: 0.953, F1-Score: 0.813
+train, epoch: 240, loss=2.05716
+Acc: 0.404, Class Acc: 0.393, Sensitivity: 0.966, Specificity: 0.951, F1-Score: 0.800
+train, epoch: 241, loss=2.05496
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.989, Specificity: 0.909, F1-Score: 0.702
+train, epoch: 242, loss=2.05535
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.992, Specificity: 0.883, F1-Score: 0.649
+train, epoch: 243, loss=2.05579
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.989, Specificity: 0.909, F1-Score: 0.702
+train, epoch: 244, loss=2.05845
+Acc: 0.403, Class Acc: 0.392, Sensitivity: 0.993, Specificity: 0.838, F1-Score: 0.572
+train, epoch: 245, loss=2.05587
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.991, Specificity: 0.895, F1-Score: 0.672
+train, epoch: 246, loss=2.05552
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.989, Specificity: 0.902, F1-Score: 0.685
+train, epoch: 247, loss=2.05521
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.991, Specificity: 0.907, F1-Score: 0.698
+train, epoch: 248, loss=2.05504
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.990, Specificity: 0.913, F1-Score: 0.712
+train, epoch: 249, loss=2.05518
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.988, Specificity: 0.924, F1-Score: 0.738
+train, epoch: 250, loss=2.05655
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.972, Specificity: 0.946, F1-Score: 0.790
+train, epoch: 251, loss=2.05952
+Acc: 0.402, Class Acc: 0.391, Sensitivity: 0.970, Specificity: 0.946, F1-Score: 0.788
+train, epoch: 252, loss=2.05635
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.988, Specificity: 0.894, F1-Score: 0.669
+train, epoch: 253, loss=2.05502
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.992, Specificity: 0.883, F1-Score: 0.648
+train, epoch: 254, loss=2.05610
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.986, Specificity: 0.912, F1-Score: 0.707
+train, epoch: 255, loss=2.05537
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.986, Specificity: 0.916, F1-Score: 0.716
+train, epoch: 256, loss=2.05518
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.992, Specificity: 0.881, F1-Score: 0.644
+train, epoch: 257, loss=2.05480
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.893, F1-Score: 0.667
+train, epoch: 258, loss=2.05583
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.982, Specificity: 0.904, F1-Score: 0.687
+train, epoch: 259, loss=2.05506
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.985, Specificity: 0.909, F1-Score: 0.699
+train, epoch: 260, loss=2.05562
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.985, Specificity: 0.898, F1-Score: 0.675
+train, epoch: 261, loss=2.05703
+Acc: 0.404, Class Acc: 0.393, Sensitivity: 0.994, Specificity: 0.815, F1-Score: 0.540
+train, epoch: 262, loss=2.05640
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.994, Specificity: 0.824, F1-Score: 0.552
+train, epoch: 263, loss=2.05525
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.993, Specificity: 0.868, F1-Score: 0.620
+train, epoch: 264, loss=2.05536
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.993, Specificity: 0.871, F1-Score: 0.626
+train, epoch: 265, loss=2.05516
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.991, Specificity: 0.891, F1-Score: 0.663
+train, epoch: 266, loss=2.05495
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.992, Specificity: 0.886, F1-Score: 0.654
+train, epoch: 267, loss=2.05518
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.989, Specificity: 0.888, F1-Score: 0.656
+train, epoch: 268, loss=2.05510
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.993, Specificity: 0.874, F1-Score: 0.631
+train, epoch: 269, loss=2.05664
+Acc: 0.404, Class Acc: 0.394, Sensitivity: 0.995, Specificity: 0.837, F1-Score: 0.571
+train, epoch: 270, loss=2.05563
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.991, Specificity: 0.877, F1-Score: 0.637
+train, epoch: 271, loss=2.05525
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.990, Specificity: 0.888, F1-Score: 0.657
+train, epoch: 272, loss=2.05564
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.988, Specificity: 0.902, F1-Score: 0.686
+train, epoch: 273, loss=2.05572
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.992, Specificity: 0.886, F1-Score: 0.654
+train, epoch: 274, loss=2.05589
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.992, Specificity: 0.884, F1-Score: 0.650
+train, epoch: 275, loss=2.05546
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.991, Specificity: 0.886, F1-Score: 0.655
+train, epoch: 276, loss=2.05583
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.993, Specificity: 0.856, F1-Score: 0.601
+train, epoch: 277, loss=2.05505
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.989, Specificity: 0.899, F1-Score: 0.680
+train, epoch: 278, loss=2.05531
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.989, Specificity: 0.916, F1-Score: 0.717
+train, epoch: 279, loss=2.05531
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.990, Specificity: 0.915, F1-Score: 0.716
+train, epoch: 280, loss=2.05482
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.992, Specificity: 0.904, F1-Score: 0.692
+train, epoch: 281, loss=2.05478
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.918, F1-Score: 0.723
+train, epoch: 282, loss=2.05485
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.988, Specificity: 0.920, F1-Score: 0.727
+train, epoch: 283, loss=2.05487
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.988, Specificity: 0.922, F1-Score: 0.733
+train, epoch: 284, loss=2.05475
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.919, F1-Score: 0.726
+train, epoch: 285, loss=2.05459
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.987, Specificity: 0.926, F1-Score: 0.742
+train, epoch: 286, loss=2.05592
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.992, Specificity: 0.896, F1-Score: 0.675
+train, epoch: 287, loss=2.05539
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.993, Specificity: 0.895, F1-Score: 0.672
+train, epoch: 288, loss=2.05627
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.989, Specificity: 0.905, F1-Score: 0.692
+train, epoch: 289, loss=2.05563
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.980, Specificity: 0.943, F1-Score: 0.783
+train, epoch: 290, loss=2.05522
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.986, Specificity: 0.920, F1-Score: 0.726
+train, epoch: 291, loss=2.05543
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.984, Specificity: 0.925, F1-Score: 0.738
+train, epoch: 292, loss=2.05593
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.987, Specificity: 0.917, F1-Score: 0.720
+train, epoch: 293, loss=2.05582
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.985, Specificity: 0.919, F1-Score: 0.724
+train, epoch: 294, loss=2.05561
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.989, Specificity: 0.915, F1-Score: 0.715
+train, epoch: 295, loss=2.05611
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.975, Specificity: 0.944, F1-Score: 0.784
+train, epoch: 296, loss=2.05625
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.987, Specificity: 0.914, F1-Score: 0.713
+train, epoch: 297, loss=2.05541
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.993, Specificity: 0.893, F1-Score: 0.669
+train, epoch: 298, loss=2.05482
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.902, F1-Score: 0.687
+train, epoch: 299, loss=2.05472
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.901, F1-Score: 0.685
+train, epoch: 300, loss=2.05542
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.987, Specificity: 0.915, F1-Score: 0.714
+train, epoch: 301, loss=2.05542
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.987, Specificity: 0.920, F1-Score: 0.726
+train, epoch: 302, loss=2.05636
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.983, Specificity: 0.919, F1-Score: 0.722
+train, epoch: 303, loss=2.05564
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.988, Specificity: 0.901, F1-Score: 0.683
+train, epoch: 304, loss=2.05533
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.987, Specificity: 0.910, F1-Score: 0.704
+train, epoch: 305, loss=2.05489
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.883, F1-Score: 0.647
+train, epoch: 306, loss=2.05509
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.990, Specificity: 0.895, F1-Score: 0.672
+train, epoch: 307, loss=2.05467
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.907, F1-Score: 0.698
+train, epoch: 308, loss=2.05476
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.901, F1-Score: 0.685
+train, epoch: 309, loss=2.05461
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.988, Specificity: 0.917, F1-Score: 0.719
+train, epoch: 310, loss=2.05525
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.984, Specificity: 0.924, F1-Score: 0.735
+train, epoch: 311, loss=2.05582
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.993, Specificity: 0.866, F1-Score: 0.617
+train, epoch: 312, loss=2.05541
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.993, Specificity: 0.878, F1-Score: 0.640
+train, epoch: 313, loss=2.05603
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.994, Specificity: 0.846, F1-Score: 0.586
+train, epoch: 314, loss=2.05549
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.993, Specificity: 0.860, F1-Score: 0.608
+train, epoch: 315, loss=2.05532
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.993, Specificity: 0.864, F1-Score: 0.614
+train, epoch: 316, loss=2.05482
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.992, Specificity: 0.878, F1-Score: 0.640
+train, epoch: 317, loss=2.05492
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.991, Specificity: 0.887, F1-Score: 0.655
+train, epoch: 318, loss=2.05577
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.993, Specificity: 0.846, F1-Score: 0.584
+train, epoch: 319, loss=2.05500
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.989, Specificity: 0.895, F1-Score: 0.670
+train, epoch: 320, loss=2.05554
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.990, Specificity: 0.908, F1-Score: 0.699
+train, epoch: 321, loss=2.05545
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.990, Specificity: 0.901, F1-Score: 0.685
+train, epoch: 322, loss=2.05491
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.991, Specificity: 0.874, F1-Score: 0.631
+train, epoch: 323, loss=2.05494
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.991, Specificity: 0.883, F1-Score: 0.647
+train, epoch: 324, loss=2.05455
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.886, F1-Score: 0.654
+train, epoch: 325, loss=2.05469
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.881, F1-Score: 0.643
+train, epoch: 326, loss=2.05511
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.991, Specificity: 0.880, F1-Score: 0.642
+train, epoch: 327, loss=2.05544
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.987, Specificity: 0.895, F1-Score: 0.671
+train, epoch: 328, loss=2.05538
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.988, Specificity: 0.893, F1-Score: 0.666
+train, epoch: 329, loss=2.05453
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.992, Specificity: 0.884, F1-Score: 0.650
+train, epoch: 330, loss=2.05499
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.984, Specificity: 0.927, F1-Score: 0.743
+train, epoch: 331, loss=2.05486
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.984, Specificity: 0.927, F1-Score: 0.744
+train, epoch: 332, loss=2.05437
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.916, F1-Score: 0.719
+train, epoch: 333, loss=2.05451
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.902, F1-Score: 0.687
+train, epoch: 334, loss=2.05443
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.906, F1-Score: 0.696
+train, epoch: 335, loss=2.05438
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.910, F1-Score: 0.704
+train, epoch: 336, loss=2.05466
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.986, Specificity: 0.919, F1-Score: 0.724
+train, epoch: 337, loss=2.05480
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.988, Specificity: 0.909, F1-Score: 0.700
+train, epoch: 338, loss=2.05514
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.987, Specificity: 0.909, F1-Score: 0.700
+train, epoch: 339, loss=2.05439
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.909, F1-Score: 0.703
+train, epoch: 340, loss=2.05460
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.992, Specificity: 0.901, F1-Score: 0.684
+train, epoch: 341, loss=2.05519
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.994, Specificity: 0.851, F1-Score: 0.593
+train, epoch: 342, loss=2.05557
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.984, Specificity: 0.930, F1-Score: 0.749
+train, epoch: 343, loss=2.05476
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.918, F1-Score: 0.724
+train, epoch: 344, loss=2.05482
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.985, Specificity: 0.929, F1-Score: 0.747
+train, epoch: 345, loss=2.05609
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.985, Specificity: 0.924, F1-Score: 0.734
+train, epoch: 346, loss=2.05519
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.984, Specificity: 0.925, F1-Score: 0.738
+train, epoch: 347, loss=2.05439
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.902, F1-Score: 0.686
+train, epoch: 348, loss=2.05452
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.988, Specificity: 0.916, F1-Score: 0.717
+train, epoch: 349, loss=2.05494
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.991, Specificity: 0.890, F1-Score: 0.662
+train, epoch: 350, loss=2.05568
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.993, Specificity: 0.874, F1-Score: 0.632
+train, epoch: 351, loss=2.05458
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.915, F1-Score: 0.715
+train, epoch: 352, loss=2.05446
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.987, Specificity: 0.921, F1-Score: 0.728
+train, epoch: 353, loss=2.05470
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.888, F1-Score: 0.658
+train, epoch: 354, loss=2.05474
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.992, Specificity: 0.876, F1-Score: 0.634
+train, epoch: 355, loss=2.05553
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.995, Specificity: 0.838, F1-Score: 0.572
+train, epoch: 356, loss=2.05589
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.994, Specificity: 0.835, F1-Score: 0.569
+train, epoch: 357, loss=2.05578
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.995, Specificity: 0.840, F1-Score: 0.576
+train, epoch: 358, loss=2.05513
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.993, Specificity: 0.861, F1-Score: 0.609
+train, epoch: 359, loss=2.05450
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.896, F1-Score: 0.674
+train, epoch: 360, loss=2.05465
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.993, Specificity: 0.880, F1-Score: 0.643
+train, epoch: 361, loss=2.05518
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.991, Specificity: 0.902, F1-Score: 0.687
+train, epoch: 362, loss=2.05612
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.995, Specificity: 0.841, F1-Score: 0.577
+train, epoch: 363, loss=2.05580
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.994, Specificity: 0.860, F1-Score: 0.609
+train, epoch: 364, loss=2.05492
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.909, F1-Score: 0.702
+train, epoch: 365, loss=2.05461
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.913, F1-Score: 0.710
+train, epoch: 366, loss=2.05456
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.988, Specificity: 0.918, F1-Score: 0.723
+train, epoch: 367, loss=2.05433
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.906, F1-Score: 0.695
+train, epoch: 368, loss=2.05454
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.992, Specificity: 0.887, F1-Score: 0.657
+train, epoch: 369, loss=2.05429
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.915, F1-Score: 0.716
+train, epoch: 370, loss=2.05445
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.916, F1-Score: 0.717
+train, epoch: 371, loss=2.05440
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.916, F1-Score: 0.718
+train, epoch: 372, loss=2.05512
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.990, Specificity: 0.905, F1-Score: 0.694
+train, epoch: 373, loss=2.05449
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.904, F1-Score: 0.692
+train, epoch: 374, loss=2.05530
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.987, Specificity: 0.913, F1-Score: 0.710
+train, epoch: 375, loss=2.05469
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.986, Specificity: 0.922, F1-Score: 0.730
+train, epoch: 376, loss=2.05495
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.983, Specificity: 0.941, F1-Score: 0.779
+train, epoch: 377, loss=2.05506
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.983, Specificity: 0.940, F1-Score: 0.777
+train, epoch: 378, loss=2.05487
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.986, Specificity: 0.926, F1-Score: 0.740
+train, epoch: 379, loss=2.05510
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.990, Specificity: 0.898, F1-Score: 0.677
+train, epoch: 380, loss=2.05498
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.990, Specificity: 0.897, F1-Score: 0.676
+train, epoch: 381, loss=2.05682
+Acc: 0.404, Class Acc: 0.394, Sensitivity: 0.977, Specificity: 0.937, F1-Score: 0.765
+train, epoch: 382, loss=2.05437
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.913, F1-Score: 0.711
+train, epoch: 383, loss=2.05514
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.985, Specificity: 0.921, F1-Score: 0.728
+train, epoch: 384, loss=2.05450
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.899, F1-Score: 0.680
+train, epoch: 385, loss=2.05418
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.919, F1-Score: 0.726
+train, epoch: 386, loss=2.05444
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.918, F1-Score: 0.722
+train, epoch: 387, loss=2.05449
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.988, Specificity: 0.918, F1-Score: 0.722
+train, epoch: 388, loss=2.05604
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.995, Specificity: 0.821, F1-Score: 0.548
+train, epoch: 389, loss=2.05556
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.993, Specificity: 0.858, F1-Score: 0.603
+train, epoch: 390, loss=2.05488
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.891, F1-Score: 0.664
+train, epoch: 391, loss=2.05449
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.987, Specificity: 0.910, F1-Score: 0.703
+train, epoch: 392, loss=2.05574
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.987, Specificity: 0.901, F1-Score: 0.683
+train, epoch: 393, loss=2.05577
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.992, Specificity: 0.869, F1-Score: 0.622
+train, epoch: 394, loss=2.05491
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.887, F1-Score: 0.656
+train, epoch: 395, loss=2.05478
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.910, F1-Score: 0.703
+train, epoch: 396, loss=2.05570
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.990, Specificity: 0.902, F1-Score: 0.686
+train, epoch: 397, loss=2.05527
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.991, Specificity: 0.901, F1-Score: 0.684
+train, epoch: 398, loss=2.05614
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.987, Specificity: 0.916, F1-Score: 0.718
+train, epoch: 399, loss=2.05488
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.902, F1-Score: 0.686
+train, epoch: 400, loss=2.05454
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.993, Specificity: 0.876, F1-Score: 0.636
+train, epoch: 401, loss=2.05470
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.992, Specificity: 0.888, F1-Score: 0.659
+train, epoch: 402, loss=2.05455
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.897, F1-Score: 0.675
+train, epoch: 403, loss=2.05464
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.992, Specificity: 0.884, F1-Score: 0.650
+train, epoch: 404, loss=2.05473
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.984, Specificity: 0.933, F1-Score: 0.757
+train, epoch: 405, loss=2.05488
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.987, Specificity: 0.919, F1-Score: 0.725
+train, epoch: 406, loss=2.05545
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.988, Specificity: 0.904, F1-Score: 0.689
+train, epoch: 407, loss=2.05551
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.995, Specificity: 0.855, F1-Score: 0.599
+train, epoch: 408, loss=2.05470
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.994, Specificity: 0.882, F1-Score: 0.648
+train, epoch: 409, loss=2.05621
+Acc: 0.405, Class Acc: 0.394, Sensitivity: 0.993, Specificity: 0.900, F1-Score: 0.684
+train, epoch: 410, loss=2.05442
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.992, Specificity: 0.909, F1-Score: 0.704
+train, epoch: 411, loss=2.05447
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.992, Specificity: 0.896, F1-Score: 0.674
+train, epoch: 412, loss=2.05460
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.911, F1-Score: 0.707
+train, epoch: 413, loss=2.05488
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.897, F1-Score: 0.677
+train, epoch: 414, loss=2.05472
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.994, Specificity: 0.864, F1-Score: 0.614
+train, epoch: 415, loss=2.05560
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.993, Specificity: 0.883, F1-Score: 0.649
+train, epoch: 416, loss=2.05528
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.989, Specificity: 0.901, F1-Score: 0.684
+train, epoch: 417, loss=2.05493
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.986, Specificity: 0.924, F1-Score: 0.736
+train, epoch: 418, loss=2.05550
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.989, Specificity: 0.906, F1-Score: 0.696
+train, epoch: 419, loss=2.05453
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.993, Specificity: 0.887, F1-Score: 0.656
+train, epoch: 420, loss=2.05478
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.987, Specificity: 0.917, F1-Score: 0.720
+train, epoch: 421, loss=2.05457
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.984, Specificity: 0.939, F1-Score: 0.775
+train, epoch: 422, loss=2.05434
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.917, F1-Score: 0.719
+train, epoch: 423, loss=2.05466
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.993, Specificity: 0.899, F1-Score: 0.680
+train, epoch: 424, loss=2.05492
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.987, Specificity: 0.931, F1-Score: 0.753
+train, epoch: 425, loss=2.05541
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.978, Specificity: 0.949, F1-Score: 0.801
+train, epoch: 426, loss=2.05548
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.982, Specificity: 0.944, F1-Score: 0.788
+train, epoch: 427, loss=2.05475
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.993, Specificity: 0.867, F1-Score: 0.620
+train, epoch: 428, loss=2.05464
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.992, Specificity: 0.873, F1-Score: 0.629
+train, epoch: 429, loss=2.05460
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.900, F1-Score: 0.682
+train, epoch: 430, loss=2.05460
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.985, Specificity: 0.926, F1-Score: 0.740
+train, epoch: 431, loss=2.05437
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.988, Specificity: 0.921, F1-Score: 0.730
+train, epoch: 432, loss=2.05445
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.987, Specificity: 0.923, F1-Score: 0.735
+train, epoch: 433, loss=2.05490
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.986, Specificity: 0.933, F1-Score: 0.759
+train, epoch: 434, loss=2.05469
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.987, Specificity: 0.933, F1-Score: 0.761
+train, epoch: 435, loss=2.05465
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.988, Specificity: 0.926, F1-Score: 0.743
+train, epoch: 436, loss=2.05488
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.984, Specificity: 0.935, F1-Score: 0.765
+train, epoch: 437, loss=2.05463
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.987, Specificity: 0.915, F1-Score: 0.715
+train, epoch: 438, loss=2.05439
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.901, F1-Score: 0.685
+train, epoch: 439, loss=2.05529
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.980, Specificity: 0.916, F1-Score: 0.714
+train, epoch: 440, loss=2.05505
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.980, Specificity: 0.917, F1-Score: 0.715
+train, epoch: 441, loss=2.05454
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.992, Specificity: 0.869, F1-Score: 0.622
+train, epoch: 442, loss=2.05488
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.888, F1-Score: 0.658
+train, epoch: 443, loss=2.05505
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.992, Specificity: 0.865, F1-Score: 0.616
+train, epoch: 444, loss=2.05464
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.895, F1-Score: 0.670
+train, epoch: 445, loss=2.05445
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.891, F1-Score: 0.663
+train, epoch: 446, loss=2.05440
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.992, Specificity: 0.875, F1-Score: 0.633
+train, epoch: 447, loss=2.05461
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.993, Specificity: 0.862, F1-Score: 0.611
+train, epoch: 448, loss=2.05413
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.993, Specificity: 0.882, F1-Score: 0.647
+train, epoch: 449, loss=2.05524
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.989, Specificity: 0.900, F1-Score: 0.682
+train, epoch: 450, loss=2.05474
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.912, F1-Score: 0.708
+train, epoch: 451, loss=2.05436
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.993, Specificity: 0.867, F1-Score: 0.619
+train, epoch: 452, loss=2.05461
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.995, Specificity: 0.842, F1-Score: 0.578
+train, epoch: 453, loss=2.05487
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.994, Specificity: 0.854, F1-Score: 0.598
+train, epoch: 454, loss=2.05405
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.902, F1-Score: 0.686
+train, epoch: 455, loss=2.05467
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.985, Specificity: 0.928, F1-Score: 0.747
+train, epoch: 456, loss=2.05481
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.983, Specificity: 0.935, F1-Score: 0.765
+train, epoch: 457, loss=2.05457
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.987, Specificity: 0.912, F1-Score: 0.707
+train, epoch: 458, loss=2.05432
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.913, F1-Score: 0.710
+train, epoch: 459, loss=2.05446
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.893, F1-Score: 0.668
+train, epoch: 460, loss=2.05581
+Acc: 0.405, Class Acc: 0.395, Sensitivity: 0.996, Specificity: 0.833, F1-Score: 0.565
+train, epoch: 461, loss=2.05449
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.900, F1-Score: 0.682
+train, epoch: 462, loss=2.05433
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.910, F1-Score: 0.704
+train, epoch: 463, loss=2.05435
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.914, F1-Score: 0.713
+train, epoch: 464, loss=2.05464
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.987, Specificity: 0.926, F1-Score: 0.742
+train, epoch: 465, loss=2.05475
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.988, Specificity: 0.921, F1-Score: 0.729
+train, epoch: 466, loss=2.05448
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.919, F1-Score: 0.725
+train, epoch: 467, loss=2.05440
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.988, Specificity: 0.916, F1-Score: 0.717
+train, epoch: 468, loss=2.05433
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.903, F1-Score: 0.689
+train, epoch: 469, loss=2.05408
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.905, F1-Score: 0.693
+train, epoch: 470, loss=2.05449
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.992, Specificity: 0.880, F1-Score: 0.643
+train, epoch: 471, loss=2.05451
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.993, Specificity: 0.876, F1-Score: 0.635
+train, epoch: 472, loss=2.05430
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.992, Specificity: 0.891, F1-Score: 0.664
+train, epoch: 473, loss=2.05424
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.992, Specificity: 0.899, F1-Score: 0.681
+train, epoch: 474, loss=2.05414
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.993, Specificity: 0.891, F1-Score: 0.664
+train, epoch: 475, loss=2.05447
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.890, F1-Score: 0.661
+train, epoch: 476, loss=2.05533
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.987, Specificity: 0.923, F1-Score: 0.733
+train, epoch: 477, loss=2.05519
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.987, Specificity: 0.917, F1-Score: 0.720
+train, epoch: 478, loss=2.05440
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.916, F1-Score: 0.719
+train, epoch: 479, loss=2.05456
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.988, Specificity: 0.930, F1-Score: 0.751
+train, epoch: 480, loss=2.05439
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.917, F1-Score: 0.722
+train, epoch: 481, loss=2.05453
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.925, F1-Score: 0.741
+train, epoch: 482, loss=2.05435
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.923, F1-Score: 0.735
+train, epoch: 483, loss=2.05468
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.906, F1-Score: 0.697
+train, epoch: 484, loss=2.05531
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.992, Specificity: 0.905, F1-Score: 0.694
+train, epoch: 485, loss=2.05452
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.921, F1-Score: 0.732
+train, epoch: 486, loss=2.05440
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.929, F1-Score: 0.749
+train, epoch: 487, loss=2.05431
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.921, F1-Score: 0.731
+train, epoch: 488, loss=2.05425
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.929, F1-Score: 0.750
+train, epoch: 489, loss=2.05428
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.989, Specificity: 0.931, F1-Score: 0.756
+train, epoch: 490, loss=2.05429
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.992, Specificity: 0.918, F1-Score: 0.725
+train, epoch: 491, loss=2.05427
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.914, F1-Score: 0.715
+train, epoch: 492, loss=2.05423
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.992, Specificity: 0.913, F1-Score: 0.712
+train, epoch: 493, loss=2.05453
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.988, Specificity: 0.930, F1-Score: 0.752
+train, epoch: 494, loss=2.05409
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.926, F1-Score: 0.743
+train, epoch: 495, loss=2.05498
+Acc: 0.406, Class Acc: 0.395, Sensitivity: 0.981, Specificity: 0.940, F1-Score: 0.776
+train, epoch: 496, loss=2.05449
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.985, Specificity: 0.939, F1-Score: 0.774
+train, epoch: 497, loss=2.05469
+Acc: 0.406, Class Acc: 0.396, Sensitivity: 0.990, Specificity: 0.922, F1-Score: 0.733
+train, epoch: 498, loss=2.05399
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.913, F1-Score: 0.712
+train, epoch: 499, loss=2.05391
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.991, Specificity: 0.917, F1-Score: 0.722
+train, epoch: 500, loss=2.05397
+Acc: 0.407, Class Acc: 0.396, Sensitivity: 0.992, Specificity: 0.903, F1-Score: 0.690

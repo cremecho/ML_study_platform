@@ -1,5 +1,4 @@
 {
-    "model_name" : "lr",
     "dataset_root" : "./dataset/mnist",
     "batch_size" : 32,
     "epoch" : 30,
