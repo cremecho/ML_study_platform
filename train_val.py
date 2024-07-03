@@ -1,16 +1,14 @@
-import sys
-
 import torch
 from torch.autograd import Variable
 import os
 import time
 from datetime import datetime
 import json
-import atexit
 
 from utils import metrics
 from utils.model_setting_helper import *
 from utils.ploting import *
+
 
 def save_config(config):
     """
@@ -119,7 +117,6 @@ class Trainer(object):
                 # TODO: for larger dataset, add 100 batch output
                 loss.backward()
                 self.optimizer.step()
-            # TODO: make dir, save confusion matrix plots
             self.logging(epoch, epoch_loss/len(self.train_loader), 'train')
             self.metrics.reset()
             if self.val:
@@ -127,7 +124,6 @@ class Trainer(object):
             # save last epoch model
             if epoch == self.epoch:
                 torch.save(self.model.state_dict(), os.path.join(self.save_path, 'last_epoch.pth'))
-
 
 
     def validation(self, epoch):
@@ -170,10 +166,9 @@ class Trainer(object):
             print(str_loss, file=f)
             print(str_metrics, file=f)
 
-        self.metrics.confusion_matrix_map(epoch, mode, 5)
+        self.metrics.confusion_matrix_map(epoch, mode, 50)
         model_config['epoch'] = epoch
         plot_metrics(configs=model_config, file_name='%s.txt' % mode, metrics_ls=[])
-        #plot_metrics(configs=model_config, file_name='val.txt', metrics_ls=[])
         if mode == 'val':
             plot_loss(configs=model_config)
 

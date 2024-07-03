@@ -31,6 +31,18 @@ class Metrics:
     def reset(self):
         self.cm = np.zeros((self.NUM_CLASSES,) * 2)
 
+    def confusion_matrix_map(self, epoch, mode, frequency):
+        if not epoch % frequency == 0:
+            return
+        temp_cm = np.array(self.cm, dtype='int')
+        xylabel = self.CLASS_LABELS
+        plt.figure(figsize=(30, 30))
+        plt.ticklabel_format(style='plain')
+        plot = ConfusionMatrixDisplay(temp_cm, display_labels=xylabel, )
+        plot.plot(cmap="Blues", values_format='')
+        plt.savefig(os.path.join(self.save_path, 'confusion_matrix_%d_%s.png' % (epoch, mode)))
+        plt.close()
+
     def Accuracy(self):
         Acc = np.diag(self.cm).sum() / self.cm.sum()
         return Acc
@@ -81,15 +93,3 @@ class Metrics:
 
         FWIoU = (freq[freq > 0] * iu[freq > 0]).sum()
         return FWIoU
-
-    def confusion_matrix_map(self, epoch, mode, frequency):
-        if not epoch % frequency == 0:
-            return
-        temp_cm = np.array(self.cm, dtype='int')
-        xylabel = self.CLASS_LABELS
-        plt.figure(figsize=(30, 30))
-        plt.ticklabel_format(style='plain')
-        plot = ConfusionMatrixDisplay(temp_cm, display_labels=xylabel, )
-        plot.plot(cmap="Blues", values_format='')
-        plt.savefig(os.path.join(self.save_path, 'confusion_matrix_%d_%s.png' % (epoch, mode)))
-        plt.close()

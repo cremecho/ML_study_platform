@@ -1,0 +1,2 @@
+test, loss=1.62872
+Acc: 0.832, Class Acc: 0.834, Sensitivity: 0.973, Specificity: 0.990, F1-Score: 0.941

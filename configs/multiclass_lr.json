@@ -4,5 +4,5 @@
     "epoch" : 3000,
     "lr": 1e-3,
     "val": true,
-    "pth_path": "C:\\Users\\Cremecho\\Desktop\\program\\Python38\\ML_study_platform\\results\\multiclass_lr\\2024-07-01 15-37-42\\best_epoch.pth"
+    "pth_path": "C:\\Users\\Cremecho\\Desktop\\program\\Python38\\ML_study_platform\\results\\multiclass_lr\\2024-07-01 14-47-06\\best_epoch.pth"
 }

@@ -7,10 +7,6 @@ class ClassificationDataset(data.Dataset):
         self.dataset_root = dataset_root
         self.NUM_CLASSES = NUM_CLASSES
         self.CLASS_LABELS = CLASS_LABELS
-        if mode == 'train':
-            ...
-        else:
-            ...
 
     def __getitem__(self, index):
         pass

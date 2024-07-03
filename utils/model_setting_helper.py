@@ -40,12 +40,26 @@ def get_model_settings(trainer):
         # 2.
         from dataset.Mnist import MnistDataset
         NUM_CLASSES = 10
-        CLASS_LABELS = ['1','2','3','4','5','6','7','8','9','10']
+        CLASS_LABELS = ['0','1','2','3','4','5','6','7','8','9']
         _dataset = MnistDataset(trainer.mode, trainer.dataset_root, NUM_CLASSES, CLASS_LABELS)
         # 3.
         _loss_func = nn.CrossEntropyLoss()
         # 4.
         _optimizer = torch.optim.SGD
+    elif trainer.model_name == 'knn':
+        # 1.
+        from models.Knn import Knn
+        _model = Knn(3)
+        # 2.
+        from dataset.BinaryClassificationPointsDataset import BCPDataset
+        NUM_CLASSES = 2
+        CLASS_LABELS = ['x1', 'x2']
+        _dataset = BCPDataset(trainer.mode, trainer.dataset_root, NUM_CLASSES, CLASS_LABELS)
+        # 3. set criterion
+        _loss_func = nn.BCELoss()
+        # 4. set optimizer, initializing in train_val since the model is not setting yet
+        _optimizer = torch.optim.SGD
+
     else:
         raise NotImplementedError('model: ' + trainer.model_name + ' not implemented')
     return _model, _dataset, _loss_func, _optimizer

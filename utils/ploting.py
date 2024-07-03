@@ -97,3 +97,13 @@ def plot_loss(configs):
     plt.close()
 
 
+# if __name__ == '__main__':
+#     configs = {'save_path': r'C:\Users\Cremecho\Desktop\program\Python38\ML_study_platform\results\multiclass_lr\2024-07-01 10-00-20',
+#                'model_name':'multiclass_lr',
+#                'epoch':366,
+#                'lr': 0.001,
+#                'batch_size':100,
+#                'val':True}
+#     plot_loss(configs)
+#     plot_metrics(configs, 'train.txt', [])
+#     plot_metrics(configs, 'val.txt', [])
