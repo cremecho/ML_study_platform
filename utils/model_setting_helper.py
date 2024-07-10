@@ -47,19 +47,8 @@ def get_model_settings(trainer):
         # 4.
         _optimizer = torch.optim.SGD
     elif trainer.model_name == 'knn':
-        # 1.
-        from models.Knn import Knn
-        _model = Knn(3)
-        # 2.
-        from dataset.BinaryClassificationPointsDataset import BCPDataset
-        NUM_CLASSES = 2
-        CLASS_LABELS = ['x1', 'x2']
-        _dataset = BCPDataset(trainer.mode, trainer.dataset_root, NUM_CLASSES, CLASS_LABELS)
-        # 3. set criterion
-        _loss_func = nn.BCELoss()
-        # 4. set optimizer, initializing in train_val since the model is not setting yet
-        _optimizer = torch.optim.SGD
-
+        # for Knn and kd-tree Knn, run the
+        raise NotImplementedError("for Knn and kd-tree Knn, run the main function in model implement script")
     else:
         raise NotImplementedError('model: ' + trainer.model_name + ' not implemented')
     return _model, _dataset, _loss_func, _optimizer

@@ -1,0 +1,18 @@
+Date,Weekday,Temperature,Humidity,Windy,Outlook,Crowdedness
+03-18,Fri,Low,Dry,Yes,sunny,High
+03-19,Sat,Low,Dry,Yes,sunny,High
+03-20,Sun,Low,Dry,Yes,overcast,High
+03-21,Mon,Low,Humid,Yes,overcast,High
+03-22,Tue,High,Dry,No,sunny,Very High
+03-23,Wed,High,Humid,No,sunny,Very High
+03-24,Thu,High,Humid,Yes,overcast,Medium
+03-25,Fri,Low,Dry,Yes,overcast,Medium
+03-26,Sat,Very Low,Humid,No,sunny,Very High
+03-27,Sun,Low,Humid,Yes,sunny,Very High
+03-28,Mon,Low,Humid,Yes,overcast,Medium
+03-29,Tue,Low,Humid,No,overcast,Low
+03-30,Wed,Very Low,Dry,No,sunny,High
+03-31,Thu,Low,Dry,No,overcast,Medium
+04-01,Fri,Low,Humid,Yes,overcast,Medium
+04-02,Sat,High,Humid,Yes,rainy,Very Low
+04-03,Sun,Very High,Dry,Yes,overcast,High
