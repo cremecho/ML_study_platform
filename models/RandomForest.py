@@ -1,7 +1,7 @@
 import numpy as np
 from sklearn.tree import DecisionTreeRegressor
 
-class rfr:
+class RFR:
     """
     随机森林回归器
     """
@@ -13,32 +13,51 @@ class rfr:
         self.random_state = random_state
 
     def fit(self, X, y):
-        """
-        随机森林回归器拟合
-        """
-        # 决策树数组
         dts = []
         n = X.shape[0]
         rs = np.random.RandomState(self.random_state)
         for i in range(self.n_estimators):
-            # 创建决策树回归器
             dt = DecisionTreeRegressor(random_state=rs.randint(np.iinfo(np.int32).max), max_features = "auto")
-            # 根据随机生成的权重，拟合数据集
             dt.fit(X, y, sample_weight=np.bincount(rs.randint(0, n, n), minlength = n))
             dts.append(dt)
         self.trees = dts
 
     def predict(self, X):
-        """
-        随机森林回归器预测
-        """
-        # 预测结果
+
         ys = np.zeros(X.shape[0])
         for i in range(self.n_estimators):
-            # 决策树回归器
             dt = self.trees[i]
-            # 依次预测结果
-            ys += dt.predict(X)
-        # 预测结果取平均
-        ys /= self.n_estimators
-        return ys
+            ys[i] = dt.predict(X)
+        pred = np.argmax(ys)
+        return pred
+
+from sklearn.ensemble import RandomForestRegressor
+import pandas as pd
+
+rfr = RandomForestRegressor()
+root = r"../dataset\golf\golf_dataset_mini\golf_dataset_mini_original_numerical_with_testset.csv"
+df = pd.read_csv(root)
+train, test = df.iloc[:-10,:], df.iloc[-10:,:]
+X_train, y_train = train.iloc[:,:-1], train.iloc[:,-1]
+X_test, y_test = test.iloc[:,:-1], test.iloc[:,-1]
+
+rfr.fit(X_train, y_train)
+y_hat = rfr.predict(X_test)
+
+
+ls = [list(y_test), list(y_hat)]
+print(ls[0])
+print(ls[1])
+mse = sum([(y1-y2)**2 for y1,y2 in zip(y_test, y_hat)]) / len(ls[0])
+print("MSE: %.3f" % mse)
+
+from sklearn.ensemble import GradientBoostingRegressor
+gbr = GradientBoostingRegressor()
+gbr.fit(X_train, y_train)
+y_hat = gbr.predict(X_test)
+
+ls = [list(y_test), list(y_hat)]
+print(ls[0])
+print(ls[1])
+mse = sum([(y1-y2)**2 for y1,y2 in zip(y_test, y_hat)]) / len(ls[0])
+print("MSE: %.3f" % mse)
