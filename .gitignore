@@ -6,6 +6,4 @@ report3.py
 dataset/219ETP牵拉 H21紫金坝2191（打标）/
 data/
 models/d2l-pytorch/
-results/
-dataset/infrared/
-dataset/lighting/
+models/rpca.npy
