@@ -1,150 +1,88 @@
-# -*- coding: UTF-8 -*-
 import numpy as np
-from functools import reduce
+import pandas as pd
 
-"""
-函数说明:创建实验样本
+class NaiveBayes(object):
+    def __init__(self, lam = 1):
+        self.x_yc = {}
+        self.p_y = {}
+        self.lam = lam
 
-Parameters:
-    无
-Returns:
-    postingList - 实验样本切分的词条
-    classVec - 类别标签向量
-
-"""
-def loadDataSet():
-    postingList=[['my', 'dog', 'has', 'flea', 'problems', 'help', 'please'],                #切分的词条
-                ['maybe', 'not', 'take', 'him', 'to', 'dog', 'park', 'stupid'],
-                ['my', 'dalmation', 'is', 'so', 'cute', 'I', 'love', 'him'],
-                ['stop', 'posting', 'stupid', 'worthless', 'garbage'],
-                ['mr', 'licks', 'ate', 'my', 'steak', 'how', 'to', 'stop', 'him'],
-                ['quit', 'buying', 'worthless', 'dog', 'food', 'stupid']]
-    classVec = [0,1,0,1,0,1]                                                                   #类别标签向量，1代表侮辱性词汇，0代表不是
-    return postingList,classVec                                                                #返回实验样本切分的词条和类别标签向量
-
-"""
-函数说明:将切分的实验样本词条整理成不重复的词条列表，也就是词汇表
-
-Parameters:
-    dataSet - 整理的样本数据集
-Returns:
-    vocabSet - 返回不重复的词条列表，也就是词汇表
-
-"""
-def createVocabList(dataSet):
-    vocabSet = set([])                      #创建一个空的不重复列表
-    for document in dataSet:
-        vocabSet = vocabSet | set(document) #取并集
-    return list(vocabSet)
-
-"""
-函数说明:根据vocabList词汇表，将inputSet向量化，向量的每个元素为1或0
-
-Parameters:
-    vocabList - createVocabList返回的列表
-    inputSet - 切分的词条列表
-Returns:
-    returnVec - 文档向量,词集模型
-
-"""
-def setOfWords2Vec(vocabList, inputSet):
-    returnVec = [0] * len(vocabList)                                    #创建一个其中所含元素都为0的向量
-    for word in inputSet:                                                #遍历每个词条
-        if word in vocabList:                                            #如果词条存在于词汇表中，则置1
-            returnVec[vocabList.index(word)] = 1
-        else: print("the word: %s is not in my Vocabulary!" % word)
-    return returnVec                                                    #返回文档向量
+    def pre_pruning(self, data):
+        data_df = data
+        data_df.loc[data_df['Temperature'] < 75, 'Temperature'] = 0
+        data_df.loc[data_df['Temperature'] >= 75, 'Temperature'] = 1
 
 
-"""
-函数说明:朴素贝叶斯分类器训练函数
+        data_df.loc[data_df['Humidity'] < 80, 'Humidity'] = 0
+        data_df.loc[data_df['Humidity'] >= 80, 'Humidity'] = 1
+        return data_df
 
-Parameters:
-    trainMatrix - 训练文档矩阵，即setOfWords2Vec返回的returnVec构成的矩阵
-    trainCategory - 训练类别标签向量，即loadDataSet返回的classVec
-Returns:
-    p0Vect - 非侮辱类的条件概率数组
-    p1Vect - 侮辱类的条件概率数组
-    pAbusive - 文档属于侮辱类的概率
+    # 然后计算每个属性的概率
+    def compute_p_x_yc(self, df):
+        gb = df.groupby(df.columns[-1])
+        for col in df.columns:
+            attr = gb[col]
+            if attr == df.columns[-1]:
+                continue
+            value_counts = attr.value_counts()
+            label_attr_pairs = value_counts.index
+            attr_n = [0] * len(self.p_y)
+            for pair in label_attr_pairs:
+                self.x_yc[pair] = value_counts[pair]
+                attr_n[pair[0]] += value_counts[pair]
+            for label_attr in self.x_yc.keys():
+                label = label_attr[0]
+                n = attr_n[label]
+                self.x_yc[label_attr] /= n
 
-"""
-def trainNB0(trainMatrix,trainCategory):
-    numTrainDocs = len(trainMatrix)                            #计算训练的文档数目
-    numWords = len(trainMatrix[0])                            #计算每篇文档的词条数
-    pAbusive = sum(trainCategory)/float(numTrainDocs)        #文档属于侮辱类的概率
-    p0Num = np.zeros(numWords); p1Num = np.zeros(numWords)    #创建numpy.zeros数组,
-    p0Denom = 0.0; p1Denom = 0.0                            #分母初始化为0.0
-    for i in range(numTrainDocs):
-        if trainCategory[i] == 1:                            #统计属于侮辱类的条件概率所需的数据，即P(w0|1),P(w1|1),P(w2|1)···
-            p1Num += trainMatrix[i]
-            p1Denom += sum(trainMatrix[i])
-        else:                                                #统计属于非侮辱类的条件概率所需的数据，即P(w0|0),P(w1|0),P(w2|0)···
-            p0Num += trainMatrix[i]
-            p0Denom += sum(trainMatrix[i])
-    p1Vect = p1Num/p1Denom                                    #相除
-    p0Vect = p0Num/p0Denom
-    return p0Vect,p1Vect,pAbusive                            #返回属于侮辱类的条件概率数组，属于非侮辱类的条件概率数组，文档属于侮辱类的概率
-
-"""
-函数说明:朴素贝叶斯分类器分类函数
-
-Parameters:
-    vec2Classify - 待分类的词条数组
-    p0Vec - 侮辱类的条件概率数组
-    p1Vec -非侮辱类的条件概率数组
-    pClass1 - 文档属于侮辱类的概率
-Returns:
-    0 - 属于非侮辱类
-    1 - 属于侮辱类
-
-"""
-def classifyNB(vec2Classify, p0Vec, p1Vec, pClass1):
-    p1 = reduce(lambda x,y:x*y, vec2Classify * p1Vec) * pClass1                #对应元素相乘
-    p0 = reduce(lambda x,y:x*y, vec2Classify * p0Vec) * (1.0 - pClass1)
-    print('p0:',p0)
-    print('p1:',p1)
-    if p1 > p0:
-        return 1
-    else:
-        return 0
-
-"""
-函数说明:测试朴素贝叶斯分类器
-
-Parameters:
-    无
-Returns:
-    无
-
-"""
-def testingNB():
-    listOPosts,listClasses = loadDataSet()                                    #创建实验样本
-    myVocabList = createVocabList(listOPosts)                                #创建词汇表
-    trainMat=[]
-    for postinDoc in listOPosts:
-        trainMat.append(setOfWords2Vec(myVocabList, postinDoc))                #将实验样本向量化
-    p0V,p1V,pAb = trainNB0(np.array(trainMat),np.array(listClasses))        #训练朴素贝叶斯分类器
-    testEntry = ['love', 'my', 'dalmation']                                    #测试样本1
-    thisDoc = np.array(setOfWords2Vec(myVocabList, testEntry))                #测试样本向量化
-    if classifyNB(thisDoc,p0V,p1V,pAb):
-        print(testEntry,'属于侮辱类')                                        #执行分类并打印分类结果
-    else:
-        print(testEntry,'属于非侮辱类')                                        #执行分类并打印分类结果
-    testEntry = ['stupid', 'garbage']                                        #测试样本2
-
-    thisDoc = np.array(setOfWords2Vec(myVocabList, testEntry))                #测试样本向量化
-    if classifyNB(thisDoc,p0V,p1V,pAb):
-        print(testEntry,'属于侮辱类')                                        #执行分类并打印分类结果
-    else:
-        print(testEntry,'属于非侮辱类')                                        #执行分类并打印分类结果
+    # 先计算每一个label的概率
+    def compute_p_y(self, df):
+        gb = df.groupby(df.columns[-1])
+        N = df.shape[0]
+        self.N = N
+        for label, indices in gb.groups.items():
+            p_label = len(indices) / N
+            self.p_y[label] = p_label
 
 
-def tree(node):
-    ...
+    def fit(self, X, y):
+        X['Label'] = y
+        self.compute_p_y(X)
+        self.compute_p_x_yc(X)
 
 
-
-
+    def predict(self, X):
+        y_hat = []
+        for row in X.iter_rows():
+            prob = {}
+            K = len(self.p_y)
+            for label in self.p_y.keys():
+                py = self.p_y[label]
+                prob[label] = py
+                for attr in X.columns:
+                    label_attr_pair = (label, attr)
+                    if not label_attr_pair in self.x_yc:
+                        prob = 0
+                    else:
+                        prob = self.x_yc[label_attr_pair]
+                    prob[label] *= prob
+                # laplace smoothing
+                prob[label] = (prob[label] + self.lam) / (self.N + K * self.lam)
+            ans = max(prob, key=lambda x: prob[x])
+            y_hat.append(ans)
+        return y_hat
 
 if __name__ == '__main__':
-    testingNB()
+    root_train = r"../dataset\golf\golf_dataset_the_origin.csv"
+    root_test = r"../dataset\golf\golf_dataset_mini\golf_dataset_mini_original_with_testset.csv"
+
+    nbc = NaiveBayes()
+
+    df = pd.read_csv(root_train)
+    df = nbc.pre_pruning(df)
+    X_train, y_train = df.iloc[:,:-1], df.iloc[:,-1]
+
+
+    nbc.fit(X_train, y_train)
+    print(df.value_counts())
+    ...

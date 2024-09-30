@@ -46,6 +46,13 @@ def get_model_settings(trainer):
         _loss_func = nn.CrossEntropyLoss()
         # 4.
         _optimizer = torch.optim.SGD
+    elif trainer.model_name == 'yolo':
+        # 1.
+        ...
+        # 2.
+        from dataset.Etp import EtpDataset
+        NUM_CLASSES = 2
+
     elif trainer.model_name == 'knn':
         # for Knn and kd-tree Knn, run the
         raise NotImplementedError("for Knn and kd-tree Knn, run the main function in model implement script")
